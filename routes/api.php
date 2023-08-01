@@ -16,9 +16,10 @@ use Illuminate\Support\Facades\Route;
 
 Route::post('exercicio/um', [ExercicioUmController::class, 'multiplicar']);
 
-
 Route::post('exercicio/dois', [ExercicioDoisController::class, 'retornarMaior']);
 
 Route::post('exercicio/tres', [ExercicioTresController::class, 'mediaAritmetica']);
 
 Route::post('exercicio/quatro', [ExercicioQuatrooController::class, 'verificarNumero']);
+
+Route::post('exercicio/cinco', [ExercicioCincoController::class, 'verificacao']);
