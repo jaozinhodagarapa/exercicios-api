@@ -18,3 +18,6 @@ Route::post('exercicio/um', [ExercicioUmController::class, 'multiplicar']);
 
 
 Route::post('exercicio/dois', [ExercicioDoisController::class, 'retornarMaior']);
+
+
+Route::post('exercicio/tres', [ExercicioTresController::class, 'mediaAritmetica']);
